@@ -95,7 +95,7 @@ func runShipCommands(commands []string) {
 
 		err = cmd.Wait()
 		if err != nil {
-			fmt.Printf("Wait error: %#s\n", err)
+			fmt.Printf("Wait error: %s\n", err)
 		}
 	}
 
